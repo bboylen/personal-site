@@ -28,36 +28,36 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'remix-main.png',
+    title: 'Remixify',
+    info: "An app that remixes your existing Spotify playlists using Spotify's API. It keeps the same artists, but selects new, random songs by them!",
+    info2: 'Built with Typescript, React, Express, MongoDB, Ant Design',
+    url: 'https://still-peak-57686.herokuapp.com',
+    repo: 'https://github.com/bboylen/Remixify', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'fakebook.png',
+    title: 'Fakebook',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://lit-woodland-51918.herokuapp.com',
+    repo: 'https://github.com/bboylen/Fakebook', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'battleship.png',
+    title: 'Battleship',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://bboylen.github.io/battleship/',
+    repo: 'https://github.com/bboylen/battleship', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Interested in hearing what else I have to offer? Please reach out!',
+  cta: 'Interested in hearing more about what I have to offer? Please reach out!',
   btn: "Let's talk",
   email: 'bbbrianboylen@gmail.com',
 };
