@@ -40,7 +40,7 @@ export const projectsData = [
     img: 'fakebook-tablet3.png',
     title: 'Fakebook',
     info: '',
-    info2: '',
+    info2: 'Built with Ruby on Rails, PostGresQL',
     url: 'https://lit-woodland-51918.herokuapp.com',
     repo: 'https://github.com/bboylen/Fakebook', // if no repo, the button will not show up
   },
