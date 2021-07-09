@@ -32,7 +32,12 @@ export const projectsData = [
     img: 'remixify-tablet.png',
     title: 'Remixify',
     info: "An app that remixes your existing Spotify playlists using Spotify's API. It keeps the same artists, but selects new, random songs by them!",
-    highlights: ['1', '2', '3'],
+    highlights: [
+      'Spotify OAuth login',
+      'Web session stored via a browser cookie',
+      'Remixed playlists saved in MongoDB databse',
+      'Remix algorithm minimizes the generation of duplicate songs',
+    ],
     info2: 'Typescript, React, Express, MongoDB, Ant Design',
     url: 'https://still-peak-57686.herokuapp.com',
     repo: 'https://github.com/bboylen/Remixify', // if no repo, the button will not show up
@@ -55,7 +60,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'battleship.png',
     title: 'Battleship',
-    info: 'Implementation of Battleship board game, built in React. Users can play against a (semi) intelligent AI.',
+    info: 'Implementation of the Battleship board game, built in React. Users can play against a (semi) intelligent AI.',
     highlights: [
       'Responsive design - displays well on mobile and desktop',
       'Full suite of unit tests for game logic',
