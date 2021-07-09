@@ -53,6 +53,7 @@ const Projects = () => {
                             return <li>{highlight}</li>;
                           })}
                         </ul>
+                        <h4 className="project-wrapper__stack-title">Tech Stack</h4>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a

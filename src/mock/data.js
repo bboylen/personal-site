@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'Remixify',
     info: "An app that remixes your existing Spotify playlists using Spotify's API. It keeps the same artists, but selects new, random songs by them!",
     highlights: ['1', '2', '3'],
-    info2: 'Built with Typescript, React, Express, MongoDB, Ant Design',
+    info2: 'Typescript, React, Express, MongoDB, Ant Design',
     url: 'https://still-peak-57686.herokuapp.com',
     repo: 'https://github.com/bboylen/Remixify', // if no repo, the button will not show up
   },
@@ -47,7 +47,7 @@ export const projectsData = [
       'Handles registration, authentication, session management and recovery',
       "AWS S3 stores users' photos",
     ],
-    info2: 'Built with Ruby on Rails, PostgreSQL, HTML/CSS',
+    info2: 'Ruby on Rails, PostgreSQL, HTML/CSS',
     url: 'https://lit-woodland-51918.herokuapp.com',
     repo: 'https://github.com/bboylen/Fakebook', // if no repo, the button will not show up
   },
@@ -55,9 +55,13 @@ export const projectsData = [
     id: nanoid(),
     img: 'battleship.png',
     title: 'Battleship',
-    info: '',
-    highlights: ['1', '2', '3'],
-    info2: '',
+    info: 'Implementation of Battleship board game, built in React. Users can play against a (semi) intelligent AI.',
+    highlights: [
+      'Responsive design - displays well on mobile and desktop',
+      'Full suite of unit tests for game logic',
+      'Grid highlighting indicates if ship placement is valid or not',
+    ],
+    info2: 'React, HTML, CSS',
     url: 'https://bboylen.github.io/battleship/',
     repo: 'https://github.com/bboylen/battleship', // if no repo, the button will not show up
   },
