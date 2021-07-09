@@ -1,4 +1,5 @@
 import { nanoid } from 'nanoid';
+import { createElement } from 'react';
 
 // HEAD DATA
 export const headData = {
@@ -31,6 +32,7 @@ export const projectsData = [
     img: 'remixify-tablet.png',
     title: 'Remixify',
     info: "An app that remixes your existing Spotify playlists using Spotify's API. It keeps the same artists, but selects new, random songs by them!",
+    highlights: ['1', '2', '3'],
     info2: 'Built with Typescript, React, Express, MongoDB, Ant Design',
     url: 'https://still-peak-57686.herokuapp.com',
     repo: 'https://github.com/bboylen/Remixify', // if no repo, the button will not show up
@@ -39,8 +41,13 @@ export const projectsData = [
     id: nanoid(),
     img: 'fakebook-tablet3.png',
     title: 'Fakebook',
-    info: '',
-    info2: 'Built with Ruby on Rails, PostGresQL',
+    info: 'A Facebook clone built with Ruby on Rails. Users can create, like and comment on posts, as well as send and accept friend requests.',
+    highlights: [
+      'Facebook OAuth login',
+      'Handles registration, authentication, session management and recovery',
+      "AWS S3 stores users' photos",
+    ],
+    info2: 'Built with Ruby on Rails, PostgreSQL, HTML/CSS',
     url: 'https://lit-woodland-51918.herokuapp.com',
     repo: 'https://github.com/bboylen/Fakebook', // if no repo, the button will not show up
   },
@@ -49,6 +56,7 @@ export const projectsData = [
     img: 'battleship.png',
     title: 'Battleship',
     info: '',
+    highlights: ['1', '2', '3'],
     info2: '',
     url: 'https://bboylen.github.io/battleship/',
     repo: 'https://github.com/bboylen/battleship', // if no repo, the button will not show up

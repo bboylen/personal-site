@@ -59,6 +59,20 @@
       }
     }
 
+    &__highlights-list {
+      list-style: none;
+      font-size: 1rem;
+      padding-left: 0;
+
+      li {
+        font-size: 1.6rem;
+        margin-bottom: .85rem;
+      }
+      @include respond(phone) {
+        font-size: 1.8rem;
+      }
+    }
+
     &__image {
       width: 90%;
       margin: 0 auto;
