@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'remix-main.png',
+    img: 'remixify-tablet.png',
     title: 'Remixify',
     info: "An app that remixes your existing Spotify playlists using Spotify's API. It keeps the same artists, but selects new, random songs by them!",
     info2: 'Built with Typescript, React, Express, MongoDB, Ant Design',
@@ -37,7 +37,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'fakebook.png',
+    img: 'fakebook-tablet3.png',
     title: 'Fakebook',
     info: '',
     info2: '',
