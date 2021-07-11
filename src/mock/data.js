@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphOne:
     'Hi there! My name is Brian, and I am a self-taught web developer. I graduated from the University of Notre Dame in 2019 with a bachelor’s in Chemical Engineering, and for the past couple years I have been working as an engineer in the Oil & Gas industry. While helping to design chemical plants across the globe has been a rewarding challenge, I quickly realized I am not passionate about the work or industry.',
   paragraphTwo:
-    'It didn’t take long for me to realize that tech was where I wanted to be instead. Most recent innovations that make me excited about the future are in fields such as AI and crypto. I chose to learn web development specifically due to the ease with which one can build functional and enjoyable products.',
+    'It didn’t take long for me to realize that tech was where I wanted to be instead. Most recent innovations that make me excited about the future are in digital fields such as AI and crypto. I chose to learn web development specifically due to the ease with which one can build functional and enjoyable products.',
   paragraphThree:
     'I’ve spent the last two years of my life working every day and coding every night. I’ve completed introductory CS courses, a self paced full stack curriculum, and multiple passion projects. I thought I might have burned out by this point, but I’ve found that the more I learn, the more interesting projects I am able to build!',
   paragraphFour:
