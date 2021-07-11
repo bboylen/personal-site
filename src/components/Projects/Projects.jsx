@@ -43,17 +43,14 @@ const Projects = () => {
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
-                        <h4 className="project-wrapper__highlights">Highlights</h4>
+                        <p>{info}</p>
+                        <h4 className="project-wrapper__highlights">Highlights:</h4>
                         <ul className="project-wrapper__highlights-list">
                           {highlights.map((highlight) => {
                             return <li>{highlight}</li>;
                           })}
                         </ul>
-                        <h4 className="project-wrapper__stack-title">Tech Stack</h4>
+                        <h4 className="project-wrapper__stack-title">Tech Stack:</h4>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <a
