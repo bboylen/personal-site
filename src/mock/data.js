@@ -40,7 +40,7 @@ export const projectsData = [
     highlights: [
       '-Spotify OAuth login',
       '-Web session stored via a browser cookie',
-      '-Remixed playlists saved in MongoDB databse',
+      '-Remixed playlists saved in MongoDB database',
       '-Remix algorithm minimizes the generation of duplicate songs',
     ],
     info2: 'Typescript, React, Express, MongoDB, Ant Design',
