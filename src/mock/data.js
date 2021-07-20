@@ -3,7 +3,7 @@ import { createElement } from 'react';
 
 // HEAD DATA
 export const headData = {
-  title: 'Brian Boylen', // e.g: 'Name | Developer'
+  title: 'Brian Boylen', 
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my website!', // e.g: Welcome to my website
 };
