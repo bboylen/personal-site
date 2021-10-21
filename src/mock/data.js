@@ -20,7 +20,7 @@ export const heroData = {
 export const aboutData = {
   img: 'bb.png',
   paragraphOne:
-    'Hi there! My name is Brian, and I am a self-taught web developer. I graduated from the University of Notre Dame in 2019 with a bachelor’s in Chemical Engineering, and for the past couple years I have been working as an engineer in the energy industry. While helping to design chemical plants across the globe has been a rewarding challenge, I quickly realized I am not passionate about the work or industry.',
+    'Hi there! My name is Brian, and I am a self-taught full stack developer. I graduated from the University of Notre Dame in 2019 with a bachelor’s in Chemical Engineering, and for the past couple years I have been working as an engineer in the energy industry. While helping to design chemical plants across the globe has been a rewarding challenge, I quickly realized I am not passionate about the work or industry.',
   paragraphTwo:
     'It didn’t take long for me to realize that tech was where I wanted to be instead. I decided to pivot to web development because I am excited by the pace of innovation in the tech industry, and I love working on products that delight users.',
   paragraphThree:
