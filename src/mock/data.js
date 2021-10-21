@@ -44,7 +44,7 @@ export const projectsData = [
       '-Remix algorithm minimizes the generation of duplicate songs',
     ],
     info2: 'Typescript, React, Express, MongoDB, Ant Design',
-    url: 'https://still-peak-57686.herokuapp.com',
+    url: 'https://remixify.herokuapp.com',
     repo: 'https://github.com/bboylen/Remixify', // if no repo, the button will not show up
   },
   {
@@ -58,7 +58,7 @@ export const projectsData = [
       "-AWS S3 stores users' photos",
     ],
     info2: 'Ruby on Rails, PostgreSQL, HTML/CSS',
-    url: 'https://lit-woodland-51918.herokuapp.com',
+    url: 'https://fakebook-bb.herokuapp.com',
     repo: 'https://github.com/bboylen/Fakebook', // if no repo, the button will not show up
   },
   {
