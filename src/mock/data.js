@@ -27,7 +27,7 @@ export const aboutData = {
     "For the past two years, I've spent most of my free time learning web development and general software engineering concepts . I’ve completed introductory CS courses, a self paced full stack curriculum, and many passion projects. I love that the more I learn, the more complex projects I am able to build!",
   paragraphFour:
     'I would love to hear about what you are working on, and to chat about how I can help!',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://github.com/bboylen/resume/blob/main/Brian%20Boylen%20Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
